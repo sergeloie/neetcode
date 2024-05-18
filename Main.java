@@ -1,15 +1,22 @@
-import current.Solution;
+import ArraysAndHashing.ValidSudoku.Solution;
 
 import java.util.List;
 
 
 public class Main {
     public static void main(String[] args) {
-        List<String> strs = List.of("neet","code","love","you");
-        System.out.println(strs);
         Solution solution = new Solution();
-        String testString = solution.encode(strs);
-        System.out.println(testString);
-        System.out.println(solution.decode(testString));
+
+        char[][] board = {{'5', '3', '.', '.', '7', '.', '.', '.', '.'}
+                , {'6', '.', '.', '1', '9', '5', '.', '.', '.'}
+                , {'.', '9', '8', '.', '.', '.', '.', '6', '.'}
+                , {'8', '.', '.', '.', '6', '.', '.', '.', '3'}
+                , {'4', '.', '.', '8', '.', '3', '.', '.', '1'}
+                , {'7', '.', '.', '.', '2', '.', '.', '.', '6'}
+                , {'.', '6', '.', '.', '.', '.', '2', '8', '.'}
+                , {'.', '.', '.', '4', '1', '9', '.', '.', '5'}
+                , {'.', '.', '.', '.', '8', '.', '.', '7', '9'}};
+
+        System.out.println(solution.isValidSudoku(board));
     }
 }
