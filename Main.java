@@ -1,4 +1,4 @@
-import ArraysAndHashing.ValidSudoku.Solution;
+import ArraysAndHashing.LongestConsecutiveSequence.Solution;
 
 import java.util.List;
 
@@ -6,17 +6,11 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         Solution solution = new Solution();
-
-        char[][] board = {{'5', '3', '.', '.', '7', '.', '.', '.', '.'}
-                , {'6', '.', '.', '1', '9', '5', '.', '.', '.'}
-                , {'.', '9', '8', '.', '.', '.', '.', '6', '.'}
-                , {'8', '.', '.', '.', '6', '.', '.', '.', '3'}
-                , {'4', '.', '.', '8', '.', '3', '.', '.', '1'}
-                , {'7', '.', '.', '.', '2', '.', '.', '.', '6'}
-                , {'.', '6', '.', '.', '.', '.', '2', '8', '.'}
-                , {'.', '.', '.', '4', '1', '9', '.', '.', '5'}
-                , {'.', '.', '.', '.', '8', '.', '.', '7', '9'}};
-
-        System.out.println(solution.isValidSudoku(board));
+        int[] nums1 = {100,4,200,1,3,2};
+        int[] nums2 = {0,3,7,2,5,8,4,6,0,1};
+        int[] nums3 = {};
+//        System.out.println(solution.longestConsecutive(nums1));
+        System.out.println(solution.longestConsecutive(nums2));
+        System.out.println(solution.longestConsecutive(nums3));
     }
 }
