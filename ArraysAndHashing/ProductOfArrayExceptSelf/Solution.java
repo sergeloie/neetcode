@@ -1,4 +1,6 @@
+package ArraysAndHashing.ProductOfArrayExceptSelf;
 //https://leetcode.com/problems/product-of-array-except-self/description/
+
 
 /*
 238. Product of Array Except Self
@@ -23,6 +25,7 @@ Input: nums = [-1,1,0,-3,3]
 Output: [0,0,9,0,0]
 */
 
+
 //https://leetcode.com/problems/product-of-array-except-self/post-solution/?submissionId=1226073407
 class Solution {
     public int[] productExceptSelf(int[] nums) {
@@ -39,7 +42,7 @@ class Solution {
 
         for (int i = 2; i <= lastIndex; i++) {
             leftProd[i] = nums[i - 2] * leftProd[i - 1];
-            rightProd[lastIndex - i] = nums[lastIndex - i] * rightProd[lastIndex +1 - i];
+            rightProd[lastIndex - i] = nums[lastIndex - i] * rightProd[lastIndex + 1 - i];
         }
 
         for (int i = 0; i < result.length; i++) {
@@ -49,3 +52,4 @@ class Solution {
         return result;
     }
 }
+

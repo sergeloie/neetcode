@@ -1,8 +1,8 @@
-//https://leetcode.com/problems/valid-anagram
+package ArraysAndHashing.ValidAnagram;//https://leetcode.com/problems/valid-anagram
 //https://leetcode.com/problems/valid-anagram/post-solution/?submissionId=1217047847
 
-/*
 
+/*
 242. Valid Anagram
 
         Given two strings s and t, return true if t is an anagram of s, and false otherwise.
@@ -20,8 +20,10 @@
 
         Input: s = "rat", t = "car"
         Output: false
-
 */
+
+
+
 
 import java.util.HashMap;
 import java.util.Map;
@@ -49,6 +51,7 @@ class Solution {
 
 
 //https://leetcode.com/problems/valid-anagram/post-solution/?submissionId=1223054840
+/*
 import java.util.HashMap;
 import java.util.Map;
 
@@ -75,3 +78,4 @@ class Solution {
         return true;
     }
 }
+*/

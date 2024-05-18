@@ -1,7 +1,7 @@
-//https://leetcode.com/problems/two-sum/description/
+package ArraysAndHashing.TwoSum;//https://leetcode.com/problems/two-sum/description/
+
 
 /*
-
 1. Two Sum
 
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
@@ -29,6 +29,8 @@ Input: nums = [3,3], target = 6
 Output: [0,1]
 */
 
+
+
 //https://leetcode.com/problems/two-sum/post-solution/?submissionId=1217105086
 class Solution {
     public int[] twoSum(int[] nums, int target) {
@@ -44,6 +46,7 @@ class Solution {
 }
 
 //https://leetcode.com/problems/two-sum/post-solution/?submissionId=1217243611
+/*
 import java.util.HashMap;
 import java.util.Map;
 
@@ -63,3 +66,4 @@ class Solution {
         return result;
     }
 }
+*/

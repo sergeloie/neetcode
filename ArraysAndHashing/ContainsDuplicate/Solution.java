@@ -1,3 +1,4 @@
+package ArraysAndHashing.ContainsDuplicate;
 //https://leetcode.com/problems/contains-duplicate/
 //https://leetcode.com/problems/contains-duplicate/post-solution/?submissionId=1216976315
 
