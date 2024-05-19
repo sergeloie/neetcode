@@ -1,4 +1,4 @@
-import ArraysAndHashing.LongestConsecutiveSequence.Solution;
+import TwoPointers.ValidPalindrome.Solution;
 
 import java.util.List;
 
@@ -6,11 +6,11 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] nums1 = {100,4,200,1,3,2};
-        int[] nums2 = {0,3,7,2,5,8,4,6,0,1};
-        int[] nums3 = {};
-//        System.out.println(solution.longestConsecutive(nums1));
-        System.out.println(solution.longestConsecutive(nums2));
-        System.out.println(solution.longestConsecutive(nums3));
+        String test = "A man, a plan, a canal: Panama";
+        String test2 = "race a car";
+        String test3 = "0P";
+        boolean result = solution.isPalindrome(test3);
+        System.out.println(result);
+
     }
 }
